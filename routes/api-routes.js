@@ -1,19 +1,3 @@
-
-
-// on post route you have to:
-// 1. read in json file (comaes in as stringified)
-// 2. after file is read turn json into js-array
-// 3. once turned into js -array push new note to array
-// 4. stringify data again
-// 5. resave that data back to the json file
-// module.exports = function (app) {
-//     class Store {
-//         read() {
-//           return readFileAsync('db/db.json', 'utf8');
-//         }
-//     }
-// }
-
 const fs = require("fs");
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
