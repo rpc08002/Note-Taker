@@ -3,6 +3,8 @@
    ## Description
   The following application is an Express Server that allows a user to keep track of information and save notes.  On the backend, express is being utilized while retriving data from a JSON file.  The JSON file is used to store and retrieve notes using the fs module.  A user can view previously saved notes and delete previously saved notes.
 
+  ![Express Note Taker]()
+
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
